@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+#{
+	margin:0;
+	padding:0;
+}
+#geral{
+	width:1004px;
+	height:1000px;
+	background:#FFF;
+	margin:0 auto;
+}
+#topo{
+	width:1004px;
+	height:200px;
+	background: linear-gradient(to bottom right, #FF3600, yellow);
+}
+#logo{
+	width:150px;
+	height:150px;
+	margin-left:30px;
+	margin-top:25px;
+	float:left;
+}
+#topo_jogo{
+	width:630px;
+	height:197px;
+	float:left;
+	margin-left:50px;
+	
+}
+#menu{
+	width:1004px;
+	height:50px;
+	background:#930202;
+}
+#menu ul{
+	list-style-type:none;
+}
+#menu li{
+	float:left;
+}
+#menu a{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#000;
+	text-decoration:none;
+	padding-left:65px;
+	padding-right:65px;
+	padding-top:13px;
+	padding-bottom:13px;
+	display:block;
+	margin-top:-3;
+}
+#menu a:hover{
+	background:#FFF
+}
+
+#conteudo{
+	width:1004px;
+	right:auto;
+}
+#conteudo_superior{
+	width:1004px;
+	height:450px;
+}
+#conteudo_superior_texto{
+	width:400px;
+	height:444px;
+	margin-top:98px;
+	margin-left:51px;
+	float:left;
+}
+#conteudo_superior_texto h2{
+	margin-bottom:50px;
+}
+#conteudo_superior_galeria{
+	
+	float:left;
+	margin-left:100px;
+	margin-top:90px
+}
+#conteudo_superior_galeria h2{
+	margin-bottom:50px;
+}
+#conteudo_inferior{
+	width:1004px;
+	height:400px;
+	float:left;
+}
+
+
+.conteudo_inferior_box{
+	width:262px;
+	height:326px;
+   	background:url(../imagens/Background.jpg) no-repeat;
+	float:left;
+	margin-left:40px;
+}
+
+.conteudo_inferior_box h2{
+	color:#fff;
+	padding-top:10px;
+	padding-bottom:15px;
+	padding-left:40px;
+}
+.conteudo_inferior_box img{
+	padding-left:25px;
+	padding-top:20px;
+}
+.conteudo_inferior_box p{
+	padding-left:15px;
+	padding-top:15px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+	text-align: center;
+}
+#rodape{
+	width:1004px;
+	height:50px;
+	background:#000000;
+}
+#rodape p{
+	color:#CCCCCC;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-align:center;
+	padding-top:10px;
+}
